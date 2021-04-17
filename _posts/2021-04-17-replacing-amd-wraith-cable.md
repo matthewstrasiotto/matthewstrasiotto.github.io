@@ -104,6 +104,42 @@ The form factor took more work.
 
 ### Matching the pins
 
+It's time to start searching for AMD Wraith Prism cable pictures- Searching this a while
+yielded [this reddit post](https://www.reddit.com/r/AMDHelp/comments/hmfmy7/lost_wraith_prism_cable_need_help/).
+
+The post is a cry for help in replacing one of their control cables - They're missing the 4 pin cable on the right,
+but they still have the 3 pin cable on the left.
+
+![picture of AMD Wraith Prism connections](/assets/img/amd_wraith/david_moss91_missing_cable.jpg)
+
+The cable on the left is the one we need to replace. This picture is simple but conveys a lot of information.
+
+In particular, we can see 3 colours on the cable, white, green, and black.
+
+These colours are significant, as they are well documented in the USB2 standard, but to be safe,
+let's review another post on the matter.
+
+Reddit user OutrageousOkona asks: [Found in my cable drawer, what’s the smaller connector and what could it connect to a usb header? Thanks!](https://www.reddit.com/r/pcmasterrace/comments/g2dy9w/found_in_my_cable_drawer_whats_the_smaller/)
+
+![OutrageousOkona: Found in my cable drawer, what’s the smaller connector and what could it connect to a usb header? Thanks!](/assets/img/amd_wraith/OutrageousOkona_01.jpg)
+
+He gives us some excellent closeups (Which I will use for form factor), and commenters seem to think it matches,
+though oddly enough, OP doesnt own an AMD Wraith Prism:
+
+> > it looks like the connector for the AMD Wraith Prism Stock Cooler.
+>
+> It does rather, I don’t own one though. Serves me right for not making a note of it ages ago.
+
+Let's take note of the other side, though. We can see a 9 Pin USB2 female header cable.
+Take note of the colours on the 9 pin connector- We can see green is *just* visible for the middle socket.
+
+It's hard to say for sure, but it also looks like white *might* be visible for the rightmost connection.
+
+Is there any way to verify this configuration?
+Well, fortunately this is very well documented as a convention in the USB2 standard - [frontx.com agrees](https://www.frontx.com/cpx108_2.html)
+
+![Diagram of USB header pinmaps with colour conventions labeled](/assets/img/amd_wraith/frontx_usb_pin_map.jpg)
+
 
 
 ### Matching the form factor
