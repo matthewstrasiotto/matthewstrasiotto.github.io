@@ -92,7 +92,7 @@ The fundamental outcome of getting this wrong is that you:
 
 We also DON'T want to get this wrong - it's inconvenient.
 
-## Matching the connector
+# Matching the connector
 
 As explained, matching the pins on the peripheral to the pins on the board is *very* important to get right,
 as a mistake could be disasterous.
@@ -102,7 +102,7 @@ Matching the connector form factor is less important, as if you mess up, at leas
 Fortunately, matching the pins was (in this instance) a fairly easy process.
 The form factor took more work.
 
-### Matching the pins
+## Matching the pins
 
 It's time to start searching for AMD Wraith Prism cable pictures- Searching this a while
 yielded [this reddit post](https://www.reddit.com/r/AMDHelp/comments/hmfmy7/lost_wraith_prism_cable_need_help/).
@@ -142,13 +142,17 @@ Well, fortunately this is very well documented as a convention in the USB2 stand
 
 We now have enough information to comfortably know what line connects to what on each side, and as long as we align our connector correctly, we're most of the way there.
 
-### Matching the form factor
+## Matching the form factor
 
 Now is the harder part - determining the form factor of the unknown connector.
 
 The number of pins is trivial - The rest is not.
 
-#### False starts
+### False starts
+
+Unfortunately, OP's estimates for the width of their connector were off by enough that
+the conclusions drawn from them were all incorrect.
+{: .alert .alert-danger}
 
 In the above post, OutrageousOkona 
 was helpful enough to prove an [album with multiple, good quality pictures of the part](https://imgur.com/a/qO7Do76) -
@@ -185,7 +189,7 @@ Right after I ordered a set of these, I got a reply on my [own request for more 
 
 The image shared had a very clear reference for dimensions, & very clearly indicated that my original reference was way off.
 
-#### Actual Dimensions:
+### Actual Dimensions:
 
 [MenryNosk Comments](https://www.reddit.com/r/pcmasterrace/comments/m8z8wd/request_pictures_of_amd_wraith_prisms_rbg/grkfc4p?utm_source=share&utm_medium=web2x&context=3):
 > yeah yeah, my phone's camera suck 🙄
