@@ -160,7 +160,9 @@ as well as a [rough measurement for the 3-pin side connector](https://www.reddit
 
 >  it’s just over 4mm wide if that helps.
  
-Estimating the width to be ~4.10mm, I put the picture into GIMP & built some measurement annotations - I'll explain how to do this in a different article.
+Estimating the width to be ~4.10mm, I put the picture into GIMP & built some measurement annotations -
+
+I explain how to do this in [How to annotate any image with accurate dimensions using free, open-source GIMP](/2021-04-17-measuring-anything-for-free-gimp/).
 
 <div class="row">
   <div class="col-12 col-md-6">
@@ -192,6 +194,51 @@ The image shared had a very clear reference for dimensions, & very clearly indic
 ### Actual Dimensions:
 
 [MenryNosk Comments](https://www.reddit.com/r/pcmasterrace/comments/m8z8wd/request_pictures_of_amd_wraith_prisms_rbg/grkfc4p?utm_source=share&utm_medium=web2x&context=3):
-> yeah yeah, my phone's camera suck 🙄
 
-![Image of a connector](/assets/img/amd_wraith/MenryNosk/AjuCNBU_raw.jpg)
+> yeah yeah, my phone's camera suck 🙄
+>
+> ![Image of connnector](https://i.imgur.com/AjuCNBU.jpg)
+>
+> Is this what you wanted?
+
+Following the [steps described in my other post](/2021-04-17-measuring-anything-for-free-gimp/), I got the following:
+
+<div class="row">
+  <div class="col-12 col-md-6">
+   <img alt="Annotated top view of connector" src="/assets/img/amd_wraith/MenryNosk/AjuCNBU_annotated.png">
+  </div>
+  <div class="col-12 col-md-6">
+   <img alt="Annotated front view of connector" src="/assets/img/amd_wraith/OutrageousOkona/02_closeup_annotated_kvAsyd0_fixed.jpg">
+  </div>
+</div>
+
+Where:
+* `Ref` = `10.00mm` 
+* `B` ≈ `6.04mm`
+* `C` ≈ `4.9mm`
+* `D` ≈ `1.5mm`
+
+Comparing this to the product entry for the [JST-ZH3](https://www.jst-mfg.com/product/pdf/eng/eCZ-F.pdf?607d1c6397c7e),
+we see
+
+
+<div class="row">
+  <div class="col-12">
+   <img alt="JST Product overview entry for JST SR/SZ" src="/assets/img/amd_wraith/jst_refs/jst_3zh_1.5mm_ref.jpg">
+  </div>
+  <div class="col-12">
+   <img alt="Datasheet for JST SR/SZ" src="/assets/img/amd_wraith/jst_refs/jst_czh_datasheet.jpg">
+  </div>
+</div>
+
+Looks like we have a match!
+
+# Building the new connection
+
+Now we need to buy stuff, and make a new connection.
+
+On the motherboard, the corresponding USB2 header has 9 pins, with a standard pitch of 2.54mm (1/10 inch)
+
+![Diagram of USB header pinmaps with colour conventions labeled](/assets/img/amd_wraith/frontx_usb_pin_map.jpg)
+
+![Fritzing sketch](/assets/img/amd_wraith/fritzing/amd_wraith_cable_bb.svg)
