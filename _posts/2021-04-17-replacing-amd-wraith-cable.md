@@ -167,4 +167,27 @@ Estimating the width to be ~4.10mm, I put the picture into GIMP & built some mea
   </div>
 </div>
 
+From this, I got a pitch of around 1.05mm - This is on the smaller end for this kind of connector, but, from cross-checking with
+the [JST Product Overview](https://jst.de/uploads/product_overview/JST%20Product%20Overview_JD09.pdf), this appeared to be a reasonable match
+for the [JST SR/SZ](https://www.jst-mfg.com/product/pdf/eng/eSR.pdf?60555f49b2287)
 
+
+<div class="row">
+  <div class="col-12 col-md-6">
+   <img alt="JST Product overview entry for JST SR/SZ" src="/assets/img/amd_wraith/jst_refs/jst_sr_sz_ssr.jpg">
+  </div>
+  <div class="col-12 col-md-6">
+   <img alt="Datasheet for JST SR/SZ" src="/assets/img/amd_wraith/jst_refs/jst_sr_sz_ssr_datasheet.jpg">
+  </div>
+</div>
+
+Right after I ordered a set of these, I got a reply on my [own request for more info](https://www.reddit.com/r/pcmasterrace/comments/m8z8wd/request_pictures_of_amd_wraith_prisms_rbg/):
+
+The image shared had a very clear reference for dimensions, & very clearly indicated that my original reference was way off.
+
+#### Actual Dimensions:
+
+[MenryNosk Comments](https://www.reddit.com/r/pcmasterrace/comments/m8z8wd/request_pictures_of_amd_wraith_prisms_rbg/grkfc4p?utm_source=share&utm_medium=web2x&context=3):
+> yeah yeah, my phone's camera suck 🙄
+
+![Image of a connector](/assets/img/amd_wraith/MenryNosk/AjuCNBU_raw.jpg)
