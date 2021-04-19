@@ -140,6 +140,31 @@ Well, fortunately this is very well documented as a convention in the USB2 stand
 
 ![Diagram of USB header pinmaps with colour conventions labeled](/assets/img/amd_wraith/frontx_usb_pin_map.jpg)
 
-
+We now have enough information to comfortably know what line connects to what on each side, and as long as we align our connector correctly, we're most of the way there.
 
 ### Matching the form factor
+
+Now is the harder part - determining the form factor of the unknown connector.
+
+The number of pins is trivial - The rest is not.
+
+#### False starts
+
+In the above post, OutrageousOkona 
+was helpful enough to prove an [album with multiple, good quality pictures of the part](https://imgur.com/a/qO7Do76) -
+as well as a [rough measurement for the 3-pin side connector](https://www.reddit.com/r/pcmasterrace/comments/g2dy9w/found_in_my_cable_drawer_whats_the_smaller/fnkwxh3?utm_source=share&utm_medium=web2x&context=3):
+
+>  it’s just over 4mm wide if that helps.
+ 
+Estimating the width to be ~4.1mm width, I put the picture into GIMP & built some measurement annotations - I'll explain how to do this in a different article.
+
+<div class="row">
+  <div class="col-12 col-md-6">
+   <img alt="Raw image" src="/assets/img/...">
+  </div>
+  <div class="col-12 col-md-6">
+   <img alt="Annotated image" src="/assets/img/...">
+  </div>
+</div>
+
+
