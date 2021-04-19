@@ -163,6 +163,7 @@ We use the measure tool again.
 
 We can see the following:
 
+* `Ref` = `10.00mm` 
 * `B` ≈ `6.04mm`
 * `C` ≈ `4.9mm`
 * `D` ≈ `1.5mm`
