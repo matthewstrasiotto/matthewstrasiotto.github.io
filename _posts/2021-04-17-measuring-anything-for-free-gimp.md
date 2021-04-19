@@ -190,6 +190,11 @@ From their product overview document- I find a shrouded header that looks like t
   </div>
 </div>
 
+We see that for our pitch, & dimensions, this product appears to match up.
+
+Applying the same technique to a front-on image of the connector suggests that we are correct:
+
+![Annotated front-on image](/assets/img/gimp_measure/front_on_fixed.jpg)
 
 *[JST]: JST connectors are electrical connectors manufactured to the design standards originally developed by J.S.T. Mfg. Co. (Japan Solderless Terminal). 
 *[pitch]: in electronic packaging, pin pitch is the uniform distance between pins measured center to center
