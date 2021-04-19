@@ -121,7 +121,7 @@ let's review another post on the matter.
 
 Reddit user OutrageousOkona asks: [Found in my cable drawer, what’s the smaller connector and what could it connect to a usb header? Thanks!](https://www.reddit.com/r/pcmasterrace/comments/g2dy9w/found_in_my_cable_drawer_whats_the_smaller/)
 
-![OutrageousOkona: Found in my cable drawer, what’s the smaller connector and what could it connect to a usb header? Thanks!](/assets/img/amd_wraith/OutrageousOkona_01.jpg)
+![OutrageousOkona: Found in my cable drawer, what’s the smaller connector and what could it connect to a usb header? Thanks!](/assets/img/amd_wraith/OutrageousOkona/01_both.jpg)
 
 He gives us some excellent closeups (Which I will use for form factor), and commenters seem to think it matches,
 though oddly enough, OP doesnt own an AMD Wraith Prism:
@@ -156,14 +156,14 @@ as well as a [rough measurement for the 3-pin side connector](https://www.reddit
 
 >  it’s just over 4mm wide if that helps.
  
-Estimating the width to be ~4.1mm width, I put the picture into GIMP & built some measurement annotations - I'll explain how to do this in a different article.
+Estimating the width to be ~4.10mm, I put the picture into GIMP & built some measurement annotations - I'll explain how to do this in a different article.
 
 <div class="row">
   <div class="col-12 col-md-6">
-   <img alt="Raw image" src="/assets/img/...">
+   <img alt="Raw image" src="/assets/img/amd_wraith/OutrageousOkona/02_closeup_raw_kvAsyd0.png">
   </div>
   <div class="col-12 col-md-6">
-   <img alt="Annotated image" src="/assets/img/...">
+   <img alt="Annotated image" src="/assets/img/amd_wraith/OutrageousOkona/02_closeup_annotated_kvAsyd0.png">
   </div>
 </div>
 
