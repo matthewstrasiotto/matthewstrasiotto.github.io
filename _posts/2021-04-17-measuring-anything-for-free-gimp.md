@@ -7,10 +7,9 @@ subtitle: |
 # gh-badge: [star, fork, follow]
 tags: [FOSS, GIMP, "open source", "measurements", "DIY"]
 comments: true
+toc: true
 # published: false
 ---
-
-# Introduction
 
 Recently, I needed to replace a very specific connector for my computer.
 The connector in question, as well as the process I underwent to replace it
