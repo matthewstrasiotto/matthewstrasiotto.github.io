@@ -8,6 +8,7 @@ subtitle: |
 tags: [test]
 comments: true
 # published: false
+toc: true
 ---
 
 # What you need to follow along
